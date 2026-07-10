@@ -1,86 +1,137 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    
+  margin: 0;
+  padding: 0;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 25px 150px;
-    
-
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 150px;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    font-family: "Arimo", sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    color: #575757;
-    
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-family: "Arimo", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  color: #575757;
 }
 
-.btnStyle{
+.btnStyle {
+  background-color: #1d4ed8;
+  color: white;
+  border-style: none;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
 
-    background-color: #1D4ED8;
-    color: white;
-    border-style: none;
+nav button {
+  padding: 15px 35px;
+  font-size: 16px;
+}
+
+header {
+  background-image: url("./assets/banner.png");
+  height: 89vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 90px;
+  font-family: "Inter", sans-serif;
+  margin-top: 100px;
+}
+
+header p {
+  color: #e2dfdf;
+  font-weight: normal;
+  font-size: 25px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  margin-top: 20px;
+}
+
+header button {
+  padding: 25px 60px;
+  font-size: 25px;
+  margin-top: 350px;
+}
+
+/* .card_section {
+  text-align: center;
+  margin-top: 60px;
+} */
+
+.card_section > h2 {
+    text-align: center;
+    font-size: 56px;
     font-weight: bold;
-    border-radius:10px;
-    cursor:pointer;
+    margin-top: 60px;
+    margin-bottom: 45px;
+    font-family: "Inter", sans-serif;
 }
 
-nav button{
-    padding: 15px 35px;
-    font-size: 16px;
-    
-}
-
-header{
-    background-image: url('./assets/banner.png');
-    height: 89vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.card{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+    gap: 15px;
+    text-align: start;
+    width: 646px;
+    height: 460px;
+    border-radius: 12px;
+    border: 2px solid #E5E7EB;
+    overflow: hidden;
+} 
+
+.card > img {
+
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
-header h1{
-    color: #ffffff;
+.card .skill{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #2563EB;
+    margin-left: 20px;
+}
+
+.card > h4{
+    font-size: 22px;
     font-weight: bold;
-    font-size: 90px;
     font-family: "Inter", sans-serif;
-    margin-top: 100px;
-    
-
-
-
+    margin-left: 20px;
 }
 
-header p{
-    color: #e2dfdf;
+.card > p{
+    font-size: 16px;
     font-weight: normal;
-    font-size: 25px;
-    text-align: center;
     font-family: "Inter", sans-serif;
-    margin-top: 20px;
-
-
-
+    color: #575757;
+    margin-left: 20px;
 }
 
-header button{
-    padding: 25px 60px;
-    font-size: 25px;
-    margin-top: 350px;
+.card_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    gap: 40px;
 }
 
