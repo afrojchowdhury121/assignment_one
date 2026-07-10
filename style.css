@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 nav {
   display: flex;
@@ -135,3 +136,193 @@ header button {
     gap: 40px;
 }
 
+
+.priceTitle h2{
+
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    color: #0D1B2A;
+    margin-top: 150px;
+    
+
+}
+
+.priceTitle p{
+
+    text-align: center;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    color: #575757;
+    margin-top: 15px;
+    
+
+}
+
+.price_card{
+    width: 370px;
+    padding: 32px;
+    border-radius: 12px;
+    border: 2px solid #E5E7EB;
+}
+
+.card_type{
+
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #888888;
+    
+}
+
+.price_card >h2{
+
+    font-size: 44px;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    color: #0D1B2A;
+    margin-top: 8px;
+    
+}
+
+.card_limit{
+  font-size: 15px;
+  font-weight: normal;
+  font-family: "Inter", sans-serif;
+  color: #888888;
+  margin-top: 5px;
+  margin-bottom: 22px;
+}
+
+.price_card > ul {
+  list-style-type: disc;
+  padding-left: 20px; 
+  margin: 24px 0; 
+}
+
+.price_card > ul > li{
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Inter", sans-serif;
+  color: #333333;
+  margin-bottom: 16px; 
+  
+
+}
+
+.price_card > ul > li::marker{
+  color: #2563eb; 
+}
+
+.price_card_btn {
+  display: block;               
+  text-align: center;           
+  padding: 14px 0;              
+  margin-top: 32px;            
+  background-color: #ffffff;    
+  border: 1.5px solid #2563eb;  
+  border-radius: 12px;          
+  color: #2563eb;               
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;             
+  text-decoration: none;        
+  
+}
+
+.price_card_btn:hover {
+  background-color: #eff6ff;
+  cursor: pointer;
+}
+
+.pro_card {
+  background-color: #0d1b2a;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.pro_card .card_badge {
+  color: #60a5fa;                  
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.pro_card .card_price {
+  color: #ffffff;                  
+  font-size: 48px;
+  font-weight: 700;
+  margin: 12px 0 4px 0;
+}
+
+.pro_card .card_period {
+  color: #94a3b8;                  
+  font-size: 16px;
+}
+
+.pro_card .card_divider {
+  border: none;
+  border-top: 1px solid #1e293b;
+  margin: 24px 0;
+}
+
+.pro_card > ul > li {
+  color: #cbd5e1;           
+}
+
+
+.pro_card .pro_btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 14px 0;
+  margin-top: 32px;
+  background-color: #2563eb;      
+  border: none;                    
+  border-radius: 12px;             
+  color: #ffffff;                  
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  cursor: pointer;
+  
+}
+
+.pro_card .pro_btn:hover {
+  background-color: #1d4ed8;      
+}
+
+.cards_container{
+  max-width: 1400px;
+  display: flex;
+  justify-content:center;
+  align-items: stretch;
+  margin: 0 auto;
+  gap: 25px;
+  margin-top: 50px;
+}
+
+.price_card_btn_team {
+  display: block;               
+  text-align: center;           
+  padding: 14px 0;              
+  margin-top: 32px;            
+  background-color: #ffffff;    
+  border: 1.5px solid #0D1B2A;  
+  border-radius: 12px;          
+  color: #0D1B2A;               
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;             
+  text-decoration: none;
+}
+
+.price_card_btn_team:hover{
+
+  background-color: #f0f0f0;
+
+}
