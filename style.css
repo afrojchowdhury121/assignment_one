@@ -16,10 +16,22 @@ nav ul {
   list-style: none;
   display: flex;
   gap: 20px;
-  font-family: "Arimo", sans-serif;
+
+}
+
+nav ul li a{
+font-family: "Arimo", sans-serif;
+  color: #575757;
+  cursor: pointer;
   font-style: normal;
   font-size: 16px;
-  color: #575757;
+  text-decoration: none;
+
+}
+
+
+nav ul li a:hover{
+color: #2563eb;
 }
 
 .btnStyle {
@@ -71,122 +83,105 @@ header button {
   margin-top: 350px;
 }
 
-/* .card_section {
-  text-align: center;
-  margin-top: 60px;
-} */
-
 .card_section > h2 {
-    text-align: center;
-    font-size: 56px;
-    font-weight: bold;
-    margin-top: 60px;
-    margin-bottom: 45px;
-    font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 56px;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 45px;
+  font-family: "Inter", sans-serif;
 }
 
-.card{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    text-align: start;
-    width: 646px;
-    height: 460px;
-    border-radius: 12px;
-    border: 2px solid #E5E7EB;
-    overflow: hidden;
-} 
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: start;
+  width: 646px;
+  height: 460px;
+  border-radius: 12px;
+  border: 2px solid #e5e7eb;
+  overflow: hidden;
+}
 
 .card > img {
-
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
-.card .skill{
-    font-size: 14px;
-    font-weight: 700;
-    font-family: "Inter", sans-serif;
-    color: #2563EB;
-    margin-left: 20px;
+.card .skill {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #2563eb;
+  margin-left: 20px;
 }
 
-.card > h4{
-    font-size: 22px;
-    font-weight: bold;
-    font-family: "Inter", sans-serif;
-    margin-left: 20px;
+.card > h4 {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  margin-left: 20px;
 }
 
-.card > p{
-    font-size: 16px;
-    font-weight: normal;
-    font-family: "Inter", sans-serif;
-    color: #575757;
-    margin-left: 20px;
+.card > p {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Inter", sans-serif;
+  color: #575757;
+  margin-left: 20px;
 }
 
-.card_container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    max-width: 1300px;
-    margin: 0 auto;
-    gap: 40px;
+.card_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  gap: 40px;
 }
 
-
-.priceTitle h2{
-
-    text-align: center;
-    font-size: 48px;
-    font-weight: bold;
-    font-family: "Inter", sans-serif;
-    color: #0D1B2A;
-    margin-top: 150px;
-    
-
+.priceTitle h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  color: #0d1b2a;
+  margin-top: 150px;
 }
 
-.priceTitle p{
-
-    text-align: center;
-    font-size: 18px;
-    font-family: "Inter", sans-serif;
-    color: #575757;
-    margin-top: 15px;
-    
-
+.priceTitle p {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  color: #575757;
+  margin-top: 15px;
 }
 
-.price_card{
-    width: 370px;
-    padding: 32px;
-    border-radius: 12px;
-    border: 2px solid #E5E7EB;
+.price_card {
+  width: 370px;
+  padding: 32px;
+  border-radius: 12px;
+  border: 2px solid #e5e7eb;
 }
 
-.card_type{
-
-    font-size: 15px;
-    font-weight: 600;
-    font-family: "Inter", sans-serif;
-    color: #888888;
-    
+.card_type {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #888888;
 }
 
-.price_card >h2{
-
-    font-size: 44px;
-    font-weight: bold;
-    font-family: "Inter", sans-serif;
-    color: #0D1B2A;
-    margin-top: 8px;
-    
+.price_card > h2 {
+  font-size: 44px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  color: #0d1b2a;
+  margin-top: 8px;
 }
 
-.card_limit{
+.card_limit {
   font-size: 15px;
   font-weight: normal;
   font-family: "Inter", sans-serif;
@@ -197,39 +192,35 @@ header button {
 
 .price_card > ul {
   list-style-type: disc;
-  padding-left: 20px; 
-  margin: 24px 0; 
+  padding-left: 20px;
+  margin: 24px 0;
 }
 
-.price_card > ul > li{
-
+.price_card > ul > li {
   font-size: 16px;
   font-weight: normal;
   font-family: "Inter", sans-serif;
   color: #333333;
-  margin-bottom: 16px; 
-  
-
+  margin-bottom: 16px;
 }
 
-.price_card > ul > li::marker{
-  color: #2563eb; 
+.price_card > ul > li::marker {
+  color: #2563eb;
 }
 
 .price_card_btn {
-  display: block;               
-  text-align: center;           
-  padding: 14px 0;              
-  margin-top: 32px;            
-  background-color: #ffffff;    
-  border: 1.5px solid #2563eb;  
-  border-radius: 12px;          
-  color: #2563eb;               
+  display: block;
+  text-align: center;
+  padding: 14px 0;
+  margin-top: 32px;
+  background-color: #ffffff;
+  border: 1.5px solid #2563eb;
+  border-radius: 12px;
+  color: #2563eb;
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  font-weight: 600;             
-  text-decoration: none;        
-  
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .price_card_btn:hover {
@@ -244,7 +235,7 @@ header button {
 }
 
 .pro_card .card_badge {
-  color: #60a5fa;                  
+  color: #60a5fa;
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -252,14 +243,14 @@ header button {
 }
 
 .pro_card .card_price {
-  color: #ffffff;                  
+  color: #ffffff;
   font-size: 48px;
   font-weight: 700;
   margin: 12px 0 4px 0;
 }
 
 .pro_card .card_period {
-  color: #94a3b8;                  
+  color: #94a3b8;
   font-size: 16px;
 }
 
@@ -270,9 +261,8 @@ header button {
 }
 
 .pro_card > ul > li {
-  color: #cbd5e1;           
+  color: #cbd5e1;
 }
-
 
 .pro_card .pro_btn {
   display: block;
@@ -280,32 +270,29 @@ header button {
   text-align: center;
   padding: 14px 0;
   margin-top: 32px;
-  background-color: #2563eb;      
-  border: none;                    
-  border-radius: 12px;             
-  color: #ffffff;                  
+  background-color: #2563eb;
+  border: none;
+  border-radius: 12px;
+  color: #ffffff;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 600;
   outline: none;
   cursor: pointer;
-  
 }
 
 .pro_card .pro_btn:hover {
-  background-color: #1d4ed8;      
+  background-color: #1d4ed8;
 }
-.priceSection{
-max-width: 1500px;
- margin: 0 auto;
- margin-bottom: 100px;
+.priceSection {
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-bottom: 100px;
 }
 
-
-.cards_container{
-  
+.cards_container {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: stretch;
   margin: 0 auto;
   gap: 25px;
@@ -313,34 +300,33 @@ max-width: 1500px;
 }
 
 .price_card_btn_team {
-  display: block;               
-  text-align: center;           
-  padding: 14px 0;              
-  margin-top: 32px;            
-  background-color: #ffffff;    
-  border: 1.5px solid #0D1B2A;  
-  border-radius: 12px;          
-  color: #0D1B2A;               
+  display: block;
+  text-align: center;
+  padding: 14px 0;
+  margin-top: 32px;
+  background-color: #ffffff;
+  border: 1.5px solid #0d1b2a;
+  border-radius: 12px;
+  color: #0d1b2a;
   font-family: "Inter", sans-serif;
   font-size: 16px;
-  font-weight: 600;             
+  font-weight: 600;
   text-decoration: none;
 }
 
-.price_card_btn_team:hover{
-
+.price_card_btn_team:hover {
   background-color: #f0f0f0;
-
 }
 
 /* footer section design */
 
-
 .site-footer {
-  background-color: #0b1520; 
+  background-color: #0b1520;
   color: #8fa0b5;
   padding: 20px 15px 15px 15px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
 }
 
 .footer-container {
@@ -354,7 +340,6 @@ max-width: 1500px;
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  
 }
 
 .footer-logo img {
@@ -385,7 +370,6 @@ max-width: 1500px;
   margin-bottom: 10px;
 }
 
-
 .footer-bottom {
   display: flex;
   justify-content: space-between;
@@ -410,143 +394,177 @@ max-width: 1500px;
   color: #ffffff;
 }
 
-
-
 /* AI generated*/
 
 .agenda {
   border: 2px solid #0b1520;
-    max-width: 1200px;
-    margin: 80px auto;
-    padding: 20px;
-    border-style: dotted;
-    border-radius: 12px;
+  max-width: 1200px;
+  margin: 80px auto;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-style: dotted;
+  border-radius: 12px;
 }
-
 
 .agenda-header {
-    text-align: center;
-    margin-bottom: 50px;
+  text-align: center;
+  margin-bottom: 50px;
 }
-
 
 .agenda-header h2 {
-    font-size: 42px;
-    margin-bottom: 20px;
+  font-size: 42px;
+  margin-bottom: 20px;
 }
-
 
 .event-info {
   font-family: "Inter", sans-serif;
   font-weight: 600;
   font-size: 16px;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    color: #555;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  color: #555;
 }
-
-
 
 /* Agenda Row */
 
 .agenda-row {
+  display: grid;
 
-    display: grid;
+  grid-template-columns: 150px 1fr 300px;
 
-    grid-template-columns:
-    150px 1fr 300px;
+  align-items: center;
 
-    align-items: center;
+  gap: 30px;
 
-    gap: 30px;
+  padding: 30px;
 
-    padding: 30px;
+  margin-bottom: 25px;
 
-    margin-bottom: 25px;
+  background: #ffffff;
 
-    background: #ffffff;
+  border-radius: 16px;
 
-    border-radius: 16px;
-
-    box-shadow: 
-    0 10px 30px rgba(0,0,0,0.08);
-
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
-
-
 
 /* Time */
 
 .agenda-time h3 {
+  color: #2563eb;
 
-    color: #2563eb;
-
-    font-size: 22px;
-
+  font-size: 22px;
 }
-
-
 
 /* Topic */
 
 .agenda-topic h3 {
+  font-size: 24px;
 
-    font-size: 24px;
-
-    margin-bottom: 10px;
-
+  margin-bottom: 10px;
 }
-
 
 .agenda-topic p {
-font-size: 16px;
+  font-size: 16px;
   font-family: "Inter", sans-serif;
 
-    color: #666;
+  color: #666;
 
-    line-height: 1.6;
-
+  line-height: 1.6;
 }
-
-
 
 /* Speaker */
 
 .speaker {
+  display: flex;
 
-    display: flex;
+  align-items: center;
 
-    align-items: center;
-
-    gap: 15px;
-
+  gap: 15px;
 }
-
 
 .speaker img {
+  width: 70px;
 
-    width: 70px;
+  height: 70px;
 
-    height: 70px;
+  border-radius: 50%;
 
-    border-radius: 50%;
-
-    object-fit: cover;
-
+  object-fit: cover;
 }
-
 
 .speaker h3 {
-
-    margin-bottom: 5px;
-
+  margin-bottom: 5px;
 }
-
 
 .speaker p {
-
-    color: #777;
-
+  color: #777;
 }
 
+.sponsors-section {
+  width: 100%;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  margin-bottom: 16px;
+  color: #121111;
+}
+
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: rgba(255, 255, 255, 0.03);
+  gap: 1px;
+  padding: 1px;
+}
+
+.sponsor-card {
+  border-radius: 12px;
+  background-color: #0a0a0a;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.sponsor-card:hover {
+  background-color: #121212;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: #666666;
+  letter-spacing: -0.5px;
+  opacity: 0.8;
+}
+
+.gradient-line {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    rgba(99, 102, 241, 0) 0%,
+    #6366f1 50%,
+    rgba(99, 102, 241, 0) 100%
+  );
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1100px;
+}
