@@ -48,9 +48,10 @@ nav button {
   font-size: 16px;
 }
 
+
 header {
   background-image: url("./assets/banner.png");
-  height: 89vh;
+  min-height: 89vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -58,6 +59,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 60px 20px;
 }
 
 header h1 {
@@ -65,7 +67,7 @@ header h1 {
   font-weight: bold;
   font-size: 90px;
   font-family: "Inter", sans-serif;
-  margin-top: 100px;
+  margin-top: 0;
 }
 
 header p {
@@ -80,8 +82,9 @@ header p {
 header button {
   padding: 25px 60px;
   font-size: 25px;
-  margin-top: 350px;
+  margin-top: 280px;
 }
+
 
 .card_section > h2 {
   text-align: center;
